@@ -27,6 +27,8 @@ In the local reduction, the same acceleration scale yields a circular-orbit enve
 
 The parabolic metric evolution, when combined with standard recombination microphysics, yields an acoustic angular scale consistent with Planck measurements.
 
+![Complex Manifold](figures/Manifold.png)
+
 ---
 
 # Introduction
