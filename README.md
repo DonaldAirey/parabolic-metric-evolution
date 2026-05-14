@@ -1,474 +1,439 @@
-# Gravity and Action from the Parabolic Metric Evolution of a Complex Manifold
+<h1 align="center">Gravity and Action from the Parabolic Metric Evolution of a Complex Manifold</h1>
 
-**Donald Airey**
-ORCID: 0000-0002-2958-1545
-Cooperstown, NY, USA
-Email: [don@airey.us](mailto:don@airey.us)
+<p align="center">
+  <strong>Donald Airey</strong><br>
+  ORCID: 0000-0002-2958-1545<br>
+  Cooperstown, NY, USA<br>
+  <a href="mailto:don@airey.us">don@airey.us</a>
+</p>
 
-## Keywords
+<p align="center">
+  <em>cosmology · gravitational theory · cosmic expansion · cosmological dynamics · Type Ia supernovae · large-scale structure</em>
+</p>
 
-* cosmology
-* gravitational theory
-* cosmic expansion
-* cosmological dynamics
-* Newtonian cosmology
-* Type Ia supernovae
-* large-scale structure
+<hr>
 
----
+<h2>Abstract</h2>
 
-# Abstract
-
+<p>
 We present a bilocal geometric framework in which separations are defined between ordered pairs of events rather than by a local infinitesimal metric. This construction is motivated by the need to represent global evolution in a manner that remains well-defined over finite separations while admitting a smooth local limit.
+</p>
 
+<p>
 The resulting geometry is formulated on a complex manifold with an imaginary temporal coordinate and a real spatial coordinate. A constant manifold acceleration sets the global spatial scale and produces a parabolic cycle of expansion and contraction.
+</p>
 
+<p>
 In the local reduction, the same acceleration scale yields a circular-orbit envelope consistent with the baryonic Tully–Fisher relation. At cosmological scales, the resulting analytic distance–redshift relation predicts the Pantheon+ Type Ia supernova luminosity distances on the SH0ES-calibrated absolute scale and yields a lower covariance-weighted χ² than Planck-calibrated FLRW, without invoking dark matter or dark energy.
+</p>
 
+<p>
 The parabolic metric evolution, when combined with standard recombination microphysics, yields an acoustic angular scale consistent with Planck measurements.
+</p>
 
-![Complex Manifold](figures/pme-manifold.png)
+<p align="center">
+  <img src="figures/pme-manifold.png" alt="Complex parabolic metric manifold" width="700">
+</p>
 
----
+<p align="center">
+  <em>Schematic representation of the complex parabolic metric manifold. Latitude lines correspond to spatial slices at fixed epoch, while longitude lines trace the temporal evolution of the manifold.</em>
+</p>
 
-# Introduction
+<hr>
 
-Cosmological observations tightly constrain theoretical descriptions of the universe. Measurements of the cosmic microwave background (CMB) fix early-universe conditions and global geometry with high precision, while Type Ia supernovae probe the late-time expansion history through the luminosity distance–redshift relation.
+<h2>Overview</h2>
 
-Although each dataset is internally consistent, discrepancies arise when parameters inferred from early- and late-time observations are compared. In particular, the tension in the Hubble constant indicates that the standard cosmological model may be incomplete.
+<p>
+The Parabolic Metric Evolution (PME) framework develops a kinematic description in which large-scale cosmological evolution and local gravitational phenomena arise from a common geometric structure. Instead of assigning distances only through local infinitesimal metric elements, PME defines separations bilocally between ordered pairs of events.
+</p>
 
-Historically, such discrepancies have been addressed by extending the model. The cosmological constant was introduced to permit a static universe and abandoned following the discovery of expansion. Galaxy rotation curves motivated the introduction of non-baryonic dark matter, and supernova evidence for accelerated expansion led to the reintroduction of the cosmological constant as dark energy.
+<p>
+The framework is governed by a single acceleration scale, denoted <code>A</code>, which determines both the parabolic evolution of the manifold and the local acceleration structure associated with gravitational systems.
+</p>
 
-While these additions yield a phenomenologically successful framework, the dominant components of the cosmic energy budget remain physically unexplained.
+<hr>
 
-We develop a kinematic framework in which large-scale evolution and local gravitational phenomena arise from a common geometric structure, termed the **Parabolic Metric Evolution (PME)**.
+<h2>Foundational Structure</h2>
 
-The PME framework replaces path-dependent metric integration with a bilocal definition assigning separations directly to ordered event pairs while admitting a consistent local limit.
+<ol>
+  <li>Physical separations are defined bilocally between ordered pairs of events.</li>
+  <li>The manifold evolution is governed by a constant acceleration scale <code>A</code>.</li>
+  <li>The manifold is parameterized by an intrinsic evolution coordinate <code>χ</code>.</li>
+  <li>Observable time is defined operationally through null exchange.</li>
+</ol>
 
-Motion on the manifold is governed by a single intrinsic kinematic scale, eliminating the need for multiple independent cosmological parameters and linking global expansion and local dynamics to a common geometric origin.
+<p>The intrinsic evolution parameter is related to observable time by:</p>
 
----
+<pre><code>χ = i t</code></pre>
 
-# Bilocal Geometry
+<p>The induced spatial extent of the manifold is:</p>
 
-## Foundational Structure
+<pre><code>L(t) = V₀ t − ½ A t²</code></pre>
 
-The framework is defined by the following postulates:
+<p>Differentiating twice gives:</p>
 
-1. Physical separations are defined bilocally between ordered pairs of events.
-2. The manifold evolution is governed by a constant acceleration scale `A`.
-3. The manifold is parameterized by an intrinsic evolution coordinate `χ`.
-4. Observable time is defined operationally through null exchange.
+<pre><code>d²L/dt² = −A</code></pre>
 
-The intrinsic evolution parameter is related to observable time by:
+<p>
+Thus the manifold evolves with a constant deceleration magnitude <code>A</code>, universal and independent of position or epoch.
+</p>
 
-```math
-χ = i t
-```
+<hr>
 
-All subsequent results follow from this structure.
+<h2>Bilocal Geometry</h2>
 
----
+<p>
+The bilocal interval is constructed from a temporal functional and a spatial functional. The spatial slices scale with the global manifold extent <code>L(t)</code>, so separations at emission and observation satisfy:
+</p>
 
-## Bilocal Spatial Separation
+<pre><code>Δxₑ¹ / L(tₑ) = Δxₒ¹ / L(tₒ)</code></pre>
 
-The bilocal spatial interval is defined by:
+<p>The symmetric midpoint spatial component is:</p>
 
-```math
-\frac{\Delta x_e^1}{L(t_e)} = \frac{\Delta x_o^1}{L(t_o)}
-```
+<pre><code>Δs¹ = ½(Δxₒ¹ + Δxₑ¹)</code></pre>
 
-Using midpoint symmetry:
+<p>The bilocal interval is:</p>
 
-```math
-\Delta s^1 = \frac12(\Delta x_o^1 + \Delta x_e^1)
-```
+<pre><code>Δs² = (Δs⁰)² + (Δs¹)²</code></pre>
 
----
+<p>
+where <code>Δs⁰</code> is purely imaginary and <code>Δs¹</code> is real.
+</p>
 
-## Invariance of the Bilocal Interval
+<p align="center">
+  <img src="figures/bilocal-geometry.png" alt="Bilocal geometry construction" width="700">
+</p>
 
-The quadratic bilocal scalar is:
+<p align="center">
+  <em>Geometric construction of the bilocal interval between emission and observation events.</em>
+</p>
 
-```math
-\Delta s^2 = (\Delta s^0)^2 + (\Delta s^1)^2
-```
+<hr>
 
-where:
+<h2>Cosmological Distance</h2>
 
-* `Δs⁰` is imaginary
-* `Δs¹` is real
+<p>Redshift is defined by the ratio of manifold extents:</p>
 
----
+<pre><code>1 + z = L(tₒ) / L(tₑ)</code></pre>
 
-## Imaginary Velocity
+<p>Imposing the null condition yields the observable spatial separation:</p>
 
-With constant intrinsic acceleration `A`:
+<pre><code>D_C(z) = tₒ(2V₀ − A tₒ) z / (2 + z)</code></pre>
 
-```math
-v(t) = i(At - V_0)
-```
+<p>The luminosity distance is:</p>
 
-where `V₀` is the initial expansion rate.
+<pre><code>D_L(z) = −tₒ(A tₒ − 2V₀) z(1 + z) / (2 + z)</code></pre>
 
----
+<p>The distance modulus is:</p>
 
-## Induced Spatial Evolution
+<pre><code>μ(z) = 5 log₁₀(D_L(z) / 10 pc)</code></pre>
 
-The manifold extent is:
+<hr>
 
-```math
-L(t) = V_0 t - \frac12 A t^2
-```
+<h2>Causal Structure</h2>
 
-Differentiating twice:
+<p>The causal horizon is:</p>
 
-```math
-\frac{d^2L}{dt^2} = -A
-```
+<pre><code>d_ch(t) = t(2V₀ − A t)</code></pre>
 
-Thus the manifold evolves with constant deceleration magnitude `A`.
+<p>The causal-boundary expansion rate is:</p>
 
----
+<pre><code>c_c(t) = 2(V₀ − A t)</code></pre>
 
-# Cosmological Distance
+<p>The causal horizon and manifold extent satisfy:</p>
 
-## Redshift Relation
+<pre><code>d_ch(t) / L(t) = 2</code></pre>
 
-Redshift is defined by:
+<p>
+The causal horizon is therefore twice the manifold extent at all epochs, placing the last-scattering surface within a single causal region.
+</p>
 
-```math
-1 + z = \frac{L(t_o)}{L(t_e)}
-```
+<hr>
 
-Using the manifold extent:
+<h2>Gravity</h2>
 
-```math
-L(t) = V_0 t - \frac12 A t^2
-```
+<p>In the local coincidence limit, the bilocal geometry reduces to:</p>
 
-The resulting comoving distance relation is:
+<pre><code>ds² = −(V₀ − A t)² dt² + dx²</code></pre>
 
-```math
-D_C(z) = \frac{t_o(2V_0 - At_o)z}{2 + z}
-```
+<p>The inward acceleration decomposes into a homogeneous background and a sourced concentration:</p>
 
----
+<pre><code>a_in(x) = a_bg + a_conc(x)</code></pre>
 
-# Causal Structure
+<p>The sourced weak-field limit satisfies:</p>
 
-The causal horizon is:
+<pre><code>∇ · a_conc = −4πGρ_inertial</code></pre>
 
-```math
-d_{\mathrm{ch}}(t) = t(2V_0 - At)
-```
+<p>For spherical symmetry:</p>
 
-Its expansion rate is:
+<pre><code>a_conc(r) = −GM(r)/r²</code></pre>
 
-```math
-c_c(t) = 2(V_0 - At)
-```
+<hr>
 
-The causal horizon always satisfies:
+<h2>Circular Orbits and the Baryonic Tully–Fisher Relation</h2>
 
-```math
-\frac{d_{\mathrm{ch}}(t)}{L(t)} = 2
-```
+<p>For circular motion:</p>
 
-Thus the entire last-scattering surface remains causally connected.
+<pre><code>v² = A r + GM_b(r)/r</code></pre>
 
----
+<p>Solving for enclosed baryonic mass:</p>
 
-# Gravity
+<pre><code>M_b(r) = r(v² − A r)/G</code></pre>
 
-## Local Interval
+<p>The maximum baryonic mass compatible with circular orbit speed <code>v</code> is:</p>
 
-In the coincidence limit:
+<pre><code>M_max(v) = v⁴ / (4 A G)</code></pre>
 
-```math
-ds^2 = -(V_0 - At)^2dt^2 + dx^2
-```
+<p>
+This gives the scaling <code>M ∝ v⁴</code>, consistent with the observed baryonic Tully–Fisher relation.
+</p>
 
-This defines the emergent local geometry.
+<p align="center">
+  <img src="figures/fundamental-plane.png" alt="PME fundamental plane" width="750">
+</p>
 
----
+<p align="center">
+  <em>PME fundamental plane of circular-orbit solutions.</em>
+</p>
 
-## Acceleration Field
+<p align="center">
+  <img src="figures/btfr-chart.png" alt="Baryonic Tully-Fisher relation" width="700">
+</p>
 
-The inward acceleration decomposes as:
+<p align="center">
+  <em>Baryonic mass versus outer rotation speed for the SPARC galaxy sample, compared with the PME circular-orbit envelope.</em>
+</p>
 
-```math
-a_{\mathrm{in}}(x) = a_{\mathrm{bg}} + a_{\mathrm{conc}}(x)
-```
+<hr>
 
-where:
+<h2>Local Dynamics</h2>
 
-* `a_bg` is the homogeneous background acceleration
-* `a_conc` is the sourced concentration field
+<h3>Operational Time</h3>
 
-The sourced field satisfies:
+<p>The null condition gives:</p>
 
-```math
-\nabla \cdot \mathbf a_{\mathrm{conc}} = -4\pi G\rho_{\mathrm{inertial}}
-```
+<pre><code>(V₀ − A t)² Δt² = Δx²</code></pre>
 
-For spherical symmetry:
+<p>so that:</p>
 
-```math
-\mathbf a_{\mathrm{conc}}(r) = -\frac{GM(r)}{r^2}\hat r
-```
+<pre><code>Δt = Δx / (V₀ − A t)</code></pre>
 
----
+<p>Observable time is defined operationally by null exchange between nearby worldlines.</p>
 
-## Circular Orbits
+<h3>Proper Time</h3>
 
-The circular orbit relation is:
+<pre><code>dτ² = (V₀ − A t)² dt² − dx²</code></pre>
 
-```math
-v^2 = Ar + \frac{GM_b(r)}{r}
-```
+<pre><code>dτ = (V₀ − A t) √(1 − v²/(V₀ − A t)²) dt</code></pre>
 
-which yields:
+<h3>Momentum</h3>
 
-```math
-M_b(r) = \frac{r(v^2 - Ar)}{G}
-```
+<pre><code>v = (V₀ − A t) tan θ</code></pre>
 
-The maximum mass envelope becomes:
+<pre><code>P = m v</code></pre>
 
-```math
-M_{\max}(v) = \frac{v^4}{4AG}
-```
+<p>The null boundary occurs at:</p>
 
-This reproduces the baryonic Tully–Fisher relation.
+<pre><code>θ = π/4</code></pre>
 
----
+<h3>Geometric Action</h3>
 
-# Local Dynamics
+<p>The geometric momentum scale is:</p>
 
-## Operational Time
+<pre><code>P_geom = m(V₀ − A t)</code></pre>
 
-The null condition gives:
+<p>The invariant geometric action increment is:</p>
 
-```math
-(V_0 - At)^2\Delta t^2 = \Delta x^2
-```
+<pre><code>dS_geom = P_geom ds</code></pre>
 
-thus:
+<p>The geometric energy scale is:</p>
 
-```math
-\Delta t = \frac{\Delta x}{V_0 - At}
-```
+<pre><code>E_geom(t) = −m(V₀ − A t)²</code></pre>
 
-Observable time is defined operationally through null exchange.
+<h3>Phase Evolution</h3>
 
----
+<p>Beyond the null boundary, geometric evolution continues as phase:</p>
 
-## Proper Time
+<pre><code>φ = S_geom / ℏ</code></pre>
 
-Proper time is defined by:
+<hr>
 
-```math
-d\tau^2 = (V_0 - At)^2dt^2 - dx^2
-```
+<h2>Late-Time Evolution</h2>
 
-which yields:
+<p>
+The PME distance-redshift relation is compared with the Pantheon+SH0ES Type Ia supernova sample. PME is evaluated using parameters fixed by the baryonic Tully–Fisher relation and Cepheid calibration.
+</p>
 
-```math
-d\tau = (V_0 - At)\sqrt{1 - \frac{v^2}{(V_0 - At)^2}}dt
-```
+<table>
+  <thead>
+    <tr>
+      <th align="left">Parameter</th>
+      <th align="left">Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>A</code></td>
+      <td><code>3.7 × 10⁻¹¹ m s⁻²</code></td>
+    </tr>
+    <tr>
+      <td><code>V₀</code></td>
+      <td><code>3.16 × 10⁸ m s⁻¹</code></td>
+    </tr>
+    <tr>
+      <td><code>tₒ</code></td>
+      <td><code>4.51 × 10¹⁷ s</code></td>
+    </tr>
+  </tbody>
+</table>
 
----
+<p>The resulting covariance-weighted chi-square values are:</p>
 
-## Local Momentum
+<pre><code>χ²_PME  = 2726
+χ²_FLRW = 4049</code></pre>
 
-The observable velocity is:
+<p>for <code>ν = 1625</code>, corresponding to reduced values:</p>
 
-```math
-v = (V_0 - At)\tan\theta
-```
+<pre><code>χ²_PME/ν  = 1.68
+χ²_FLRW/ν = 2.49</code></pre>
 
-Momentum is:
+<p align="center">
+  <img src="figures/hubble-diagram.png" alt="Hubble diagram" width="700">
+</p>
 
-```math
-P = mv
-```
+<p align="center">
+  <em>Pantheon+SH0ES distance moduli compared with PME and Planck-calibrated FLRW.</em>
+</p>
 
-with null boundary at:
+<h3>Hubble Function</h3>
 
-```math
-\theta = \frac\pi4
-```
+<pre><code>H(t) = (V₀ − A t) / (V₀ t − ½ A t²)</code></pre>
 
----
+<p>The present-day expansion rate predicted by PME is:</p>
 
-## Local Action
+<pre><code>H₀ = 66.5 km s⁻¹ Mpc⁻¹</code></pre>
 
-Define the geometric momentum scale:
+<h3>Cosmic Time Comparison</h3>
 
-```math
-P_{\mathrm{geom}} = m(V_0 - At)
-```
+<table>
+  <thead>
+    <tr>
+      <th align="right">z</th>
+      <th align="right">PME [Myr]</th>
+      <th align="right">FLRW [Myr]</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td align="right">0</td><td align="right">14,283</td><td align="right">13,791</td></tr>
+    <tr><td align="right">1</td><td align="right">7,039</td><td align="right">5,840</td></tr>
+    <tr><td align="right">10</td><td align="right">1,265</td><td align="right">470</td></tr>
+    <tr><td align="right">100</td><td align="right">137</td><td align="right">16.4</td></tr>
+    <tr><td align="right">1,000</td><td align="right">13.9</td><td align="right">0.429</td></tr>
+  </tbody>
+</table>
 
-The invariant geometric action increment is:
+<hr>
 
-```math
-dS_{\mathrm{geom}} = P_{\mathrm{geom}}ds
-```
+<h2>Early-Time Evolution</h2>
 
-with action-space interval:
+<p>The scale factor is:</p>
 
-```math
-dS_{\mathrm{geom}}^2 = m^2(V_0 - At)^2[-(V_0 - At)^2dt^2 + dx^2]
-```
+<pre><code>a(t) = L(t) / L(tₒ)</code></pre>
 
-The geometric energy scale is:
+<p>The present-day baryon density derived from the manifold acceleration scale is:</p>
 
-```math
-E_{\mathrm{geom}}(t) = -m(V_0 - At)^2
-```
+<pre><code>ρ_b = 9.49 × 10⁻²⁸ kg m⁻³</code></pre>
 
-Observable action is:
+<p>Using PME expansion geometry with standard recombination microphysics gives:</p>
 
-```math
-dS = Pdx - Hdt
-```
+<ul>
+  <li>Recombination redshift: <code>z* = 1039</code></li>
+  <li>Recombination time: <code>t* = 13.4 Myr</code></li>
+  <li>Sound horizon: <code>r_s = 3.7 Mpc</code></li>
+</ul>
 
----
+<p align="center">
+  <img src="figures/visibility-function.png" alt="Photon visibility function" width="700">
+</p>
 
-## Phase Evolution
+<p align="center">
+  <em>Photon visibility function evaluated on the PME expansion background.</em>
+</p>
 
-Beyond the null boundary, geometric evolution continues as phase:
+<h3>Acoustic Angular Scale</h3>
 
-```math
-\phi = \frac{S_{\mathrm{geom}}}{\hbar}
-```
+<p>The predicted acoustic angular scale is:</p>
 
-where `ħ` defines the minimum bilocal separation scale.
+<pre><code>θ* = 0.0103</code></pre>
 
----
+<p>or, in conventional CMB notation:</p>
 
-# Late-Time Evolution
+<pre><code>100 θ* = 1.03</code></pre>
 
-## Luminosity Distance
+<hr>
 
-The luminosity distance is:
+<h2>Discussion</h2>
 
-```math
-D_L(z) = -\frac{t_o(At_o - 2V_0)z(1+z)}{2+z}
-```
+<p>
+PME proposes a unified geometric origin for cosmological expansion, gravity, inertia, action, causal structure, and phase evolution. The framework eliminates independent dark matter and dark energy components, while linking local gravitational structure and cosmological observables through a single acceleration scale.
+</p>
 
-Distance modulus:
+<p>
+The framework predicts residual non-Keplerian contributions to bound motion with radial scaling <code>A r² / GM</code>. Solar-System observations constrain the model but do not probe the regime in which the background term becomes dynamically dominant. Improved precision at large heliocentric distances provides a direct observational test.
+</p>
 
-```math
-\mu(z) = 5\log_{10}\left(\frac{D_L(z)}{10\,\mathrm{pc}}\right)
-```
+<p>
+Further work is required to extend the bilocal framework to perturbations, structure growth, nucleosynthesis, and a fully intrinsic treatment of recombination.
+</p>
 
----
+<hr>
 
-## PME Parameters
+<h2>Code Availability</h2>
 
-| Parameter | Value               |
-| --------- | ------------------- |
-| `A`       | `3.7 × 10⁻¹¹ m s⁻²` |
-| `V₀`      | `3.16 × 10⁸ m s⁻¹`  |
-| `t₀`      | `4.51 × 10¹⁷ s`     |
+<p>
+A computational notebook implementing the bilocal geometry, distance-redshift relation, and observational analysis is publicly available here:
+</p>
 
-Predicted Hubble constant:
+<p align="center">
+  <a href="https://www.wolframcloud.com/obj/32b2e831-2cbe-4ff5-b821-aa23f476f015">
+    Wolfram Cloud Computational Notebook
+  </a>
+</p>
 
-```math
-H_0 = 66.5\,\mathrm{km\,s^{-1}\,Mpc^{-1}}
-```
+<hr>
 
----
+<h2>Conclusion</h2>
 
-# Early-Time Evolution
+<p>
+A constrained bilocal construction on a complex manifold yields a quadratic interval whose local reduction produces a homogeneous acceleration scale. This single geometric scale governs both the parabolic evolution of the manifold and the redistribution of acceleration flux in gravitationally bound systems.
+</p>
 
-## Scale Factor
+<p>
+The evolution implied by this construction yields a closed analytic distance-redshift relation, predicts the present-day Hubble constant, produces extended cosmic ages, reproduces the baryonic Tully–Fisher relation, and yields an acoustic angular scale consistent with observation.
+</p>
 
-```math
-a(t) = \frac{L(t)}{L(t_o)}
-```
+<p>
+Evolution, causal structure, action, gravity, inertia, and dynamical law therefore arise from a common bilocal origin, with all dynamics derived from momentum-weighted invariant separation.
+</p>
 
----
+<hr>
 
-## Recombination Epoch
+<h2>Suggested Repository Structure</h2>
 
-Using PME expansion geometry with standard recombination microphysics yields:
-
-* recombination redshift: `z* = 1039`
-* recombination time: `t* = 13.4 Myr`
-
----
-
-## Acoustic Angular Scale
-
-The predicted acoustic angle is:
-
-```math
-\theta_* = 0.0103
-```
-
-or conventionally:
-
-```math
-100\theta_* = 1.03
-```
-
-consistent with Planck observations.
-
----
-
-# Discussion
-
-PME proposes a unified geometric origin for:
-
-* cosmological expansion
-* gravity
-* inertia
-* action
-* causal structure
-* phase evolution
-
-The framework:
-
-* eliminates dark matter and dark energy components
-* reproduces Type Ia supernova luminosity distances
-* predicts the Hubble constant
-* reproduces the baryonic Tully–Fisher relation
-* predicts the acoustic angular scale
-* removes curvature singularities through finite acceleration flux
-
-The theory remains to be extended to:
-
-* perturbation growth
-* structure formation
-* intrinsic recombination derivations
-* nucleosynthesis
-
----
-
-# Code Availability
-
-Computational notebook:
-
-[https://www.wolframcloud.com/obj/32b2e831-2cbe-4ff5-b821-aa23f476f015](https://www.wolframcloud.com/obj/32b2e831-2cbe-4ff5-b821-aa23f476f015)
-
----
-
-# Conclusion
-
-The Parabolic Metric Evolution framework defines a bilocal geometric structure in which evolution, gravity, inertia, causal structure, and dynamical law emerge from a common acceleration geometry.
-
-The framework derives:
-
-* cosmological expansion
-* local gravitational structure
-* baryonic Tully–Fisher scaling
-* Type Ia supernova luminosity relations
-* the Hubble constant
-* the acoustic angular scale
-
-from a single acceleration scale inherited from the manifold geometry.
-
-This construction provides a unified geometric interpretation of cosmological and local dynamics without introducing independent dark-sector components.
+<pre><code>README.md
+LICENSE
+CITATION.cff
+paper/
+  PME.pdf
+  PME.tex
+figures/
+  pme-manifold.png
+  bilocal-geometry.png
+  fundamental-plane.png
+  btfr-chart.png
+  hubble-diagram.png
+  visibility-function.png
+notebooks/
+  analysis.nb
+data/
+</code></pre>
