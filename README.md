@@ -21,7 +21,7 @@ The parabolic metric evolution, when combined with standard recombination microp
 </p>
 
 <p align="center">
-  <img src="figures/pme-manifold.png" alt="Complex parabolic metric manifold" width="400">
+  <img src="figures/pme-manifold.png" alt="Complex parabolic metric manifold" width="500">
 </p>
 
 <p align="center">
@@ -106,14 +106,11 @@ $$\Delta s^1=\frac12(\Delta x_o^1+\Delta x_e^1)$$
 </p>
 
 <p align="center">
-  <img src="figures/bilocal-geometry.png" alt="Bilocal geometry construction" width="700">
+  <img src="figures/invariant-interval.png" alt="Bilocal geometry construction" width="500">
 </p>
 
 <p align="center">
-  <em>
-    Geometric construction of the bilocal interval between emission event $p_e$ and observation event $p_o$,
-    showing the accumulated temporal evolution and the symmetric midpoint spatial separation between scaled slices.
-  </em>
+Geometric construction of the bilocal interval between emission event $p_e$ and observation event $p_o$, showing the accumulated temporal evolution and the symmetric midpoint spatial separation between scaled slices.
 </p>
 
 <h3>Invariance of the Bilocal Interval</h3>
