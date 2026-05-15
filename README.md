@@ -1,4 +1,4 @@
-<h1 align="center">Gravity and Action from the Parabolic Metric Evolution of a Complex Manifold</h1>
+<h1 align="center">Gravity and Action from the Evolution of a Complex Manifold</h1>
 
 <p align="center">
   <strong>Donald Airey</strong><br>
