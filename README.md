@@ -1,19 +1,5 @@
 <h1 align="center">Gravity and Action from the Evolution of a Complex Manifold</h1>
 
-<p align="center">
-  <strong>Donald Airey</strong><br>
-  ORCID: <a href="https://orcid.org/0000-0002-2958-1545">0000-0002-2958-1545</a><br>
-  1621 County Highway 31, Cooperstown, NY 13326, USA<br>
-  <a href="mailto:don@airey.us">don@airey.us</a>
-</p>
-
-<p align="center">
-  <em>
-    cosmology · gravitational theory · cosmic expansion · cosmological dynamics ·
-    Newtonian cosmology · Type Ia supernovae · large-scale structure
-  </em>
-</p>
-
 <hr>
 
 <h2>Abstract</h2>
@@ -35,12 +21,12 @@ The parabolic metric evolution, when combined with standard recombination microp
 </p>
 
 <p align="center">
-  <img src="figures/pme-manifold.png" alt="Complex parabolic metric manifold" width="700">
+  <img src="figures/pme-manifold.png" alt="Complex parabolic metric manifold" width="400">
 </p>
 
 <p align="center">
   <em>
-    Schematic representation of the complex parabolic metric manifold.
+    Figure 1 - Schematic representation of the complex parabolic metric manifold.
     Latitude lines correspond to spatial slices at fixed epoch,
     while longitude lines trace the temporal evolution of the manifold.
   </em>
