@@ -35,7 +35,7 @@ The parabolic metric evolution, when combined with standard recombination microp
 </p>
 
 <p align="center">
-  <img src="figures/manifold.png" alt="Complex parabolic metric manifold" width="700">
+  <img src="figures/pme-manifold.png" alt="Complex parabolic metric manifold" width="700">
 </p>
 
 <p align="center">
