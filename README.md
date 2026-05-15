@@ -558,7 +558,7 @@ The observed galaxies follow the predicted $M\propto v^4$ scaling across a wide 
 </p>
 
 <p align="center">
-  <img src="figures/btfr-chart.png" alt="Baryonic Tully–Fisher relation" width="700">
+  <img src="figures/btfr-plot.png" alt="Baryonic Tully–Fisher relation" width="500">
 </p>
 
 <p align="center">
@@ -874,7 +874,7 @@ where $C$ is the full Pantheon+ STAT+SYS covariance matrix. The resulting best-f
 <h3>Comparison with Observations</h3>
 
 <p align="center">
-  <img src="figures/hubble-diagram.png" alt="Hubble diagram" width="700">
+  <img src="figures/hubble-diagram.png" alt="Hubble diagram" width="500">
 </p>
 
 <p align="center">
@@ -1058,7 +1058,7 @@ Evaluating $g(t)$ on the PME expansion background using the <code>Recfast++</cod
 </p>
 
 <p align="center">
-  <img src="figures/visibility-function.png" alt="Photon visibility function" width="700">
+  <img src="figures/visibility-function.png" alt="Photon visibility function" width="500">
 </p>
 
 <p align="center">
