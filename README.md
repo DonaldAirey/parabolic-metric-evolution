@@ -1112,7 +1112,7 @@ The observed acoustic angle is determined by the ratio of the sound horizon at r
 
 <p>
 
-$$C_\perp \equiv \frac12\left[L(t_o)+L(t_*)\right]=\frac{L(t_o)}{2}\,\frac{2+z_*}{1+z_*}$$
+$$C_{\perp} \equiv \frac{1}{2}\left[L(t_{o})+L(t_{\ast})\right]=\frac{L(t_{o})}{2}\frac{2+z_{\ast}}{1+z_{\ast}}$$
 
 </p>
 
@@ -1122,7 +1122,7 @@ The corresponding effective transverse radius is
 
 <p>
 
-$$r_\perp=\frac{C_\perp}{2\pi}=\frac{L(t_o)}{4\pi}\,\frac{2+z_*}{1+z_*}$$
+$$r_\perp=\frac{C_\perp}{2\pi}=\frac{L(t_o)}{4\pi}\,\frac{2+z_{\ast}}{1+z_{\ast}}$$
 
 </p>
 
@@ -1132,7 +1132,7 @@ The acoustic angular scale is then $\theta_*=r_s/r_\perp$. Substituting and usin
 
 <p>
 
-$$\theta_*=\frac{8\pi(1+z_*)}{t_o(2V_0-A t_o)(2+z_*)}\,r_s$$
+$$\theta_{\ast}=\frac{8\pi(1+z_{\ast})}{t_o(2V_0-A t_o)(2+z_{\ast})}\,r_s$$
 
 </p>
 
