@@ -5,7 +5,6 @@
     <img src="https://zenodo.org/badge/1238949153.svg" alt="DOI">
   </a>
 </p>
-<<<<<<< HEAD
 
 <p align="center">
   <strong>Parabolic Metric Evolution (PME)</strong> &mdash; an alternative cosmological framework
@@ -45,8 +44,6 @@ dark energy, or any independent dynamical components.
   <li><code>CITATION.cff</code> &mdash; structured citation metadata.</li>
   <li><code>LICENSE</code> &mdash; GPL-3.0 license.</li>
 </ul>
-=======
->>>>>>> 6344cbc0b76885ab18ad1e5b5eed6331c07e47a0
 
 <hr>
 
