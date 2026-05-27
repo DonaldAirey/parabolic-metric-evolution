@@ -1,5 +1,49 @@
 <h1 align="center">Gravity and Action from the Evolution of a Complex Manifold</h1>
-[![DOI](https://zenodo.org/badge/1238949153.svg)](https://doi.org/10.5281/zenodo.20414999)
+
+<p align="center">
+  <a href="https://doi.org/10.5281/zenodo.20414999">
+    <img src="https://zenodo.org/badge/1238949153.svg" alt="DOI">
+  </a>
+</p>
+
+<p align="center">
+  <strong>Parabolic Metric Evolution (PME)</strong> &mdash; an alternative cosmological framework
+  that derives gravity, the Hubble constant, and galaxy rotation curves from a single acceleration scale,
+  without invoking dark matter or dark energy.
+</p>
+
+<hr>
+
+<h2>Overview</h2>
+
+<p>
+This repository accompanies the paper <em>Gravity and Action from the Evolution of a Complex Manifold</em>,
+which develops the Parabolic Metric Evolution (PME) framework as an alternative to standard FLRW cosmology.
+PME addresses the Hubble tension, galaxy rotation curves, and the baryonic Tully&ndash;Fisher relation
+through a single geometric construction grounded in a complex manifold with a constant acceleration scale.
+The framework reproduces key cosmological and galactic observations without introducing dark matter,
+dark energy, or any independent dynamical components.
+</p>
+
+<h3>Highlights</h3>
+
+<ul>
+  <li>Fits the Pantheon+ Type Ia supernova distances on the SH0ES-calibrated absolute scale with substantially lower covariance-weighted &chi;<sup>2</sup> than Planck-calibrated FLRW.</li>
+  <li>Predicts the present-day Hubble constant <em>H<sub>0</sub></em> = 66.5 km s<sup>&minus;1</sup> Mpc<sup>&minus;1</sup> as a derived quantity rather than a fitted parameter.</li>
+  <li>Reproduces the baryonic Tully&ndash;Fisher relation from the SPARC galaxy sample using the same acceleration scale <em>A</em> = 3.7&times;10<sup>&minus;11</sup> m s<sup>&minus;2</sup>.</li>
+  <li>Yields a CMB acoustic angular scale 100&theta;<sub>*</sub> = 1.03, consistent with Planck measurements.</li>
+  <li>Produces uniformly extended cosmic ages, easing tension with early massive-galaxy observations.</li>
+</ul>
+
+<h3>Repository Contents</h3>
+
+<ul>
+  <li><code>Gravity and Action from the Evolution of a Complex Manifold.pdf</code> &mdash; full manuscript.</li>
+  <li><code>figures/</code> &mdash; figures referenced in the manuscript and this README (manifold schematic, BTFR plot, Hubble diagram, visibility function, fundamental plane).</li>
+  <li><code>notebooks/</code> &mdash; Wolfram Language notebooks reproducing the bilocal geometry, distance&ndash;redshift relation, BTFR fit to SPARC data, and Pantheon+ comparison.</li>
+  <li><code>CITATION.cff</code> &mdash; structured citation metadata.</li>
+  <li><code>LICENSE</code> &mdash; GPL-3.0 license.</li>
+</ul>
 
 <hr>
 
@@ -1205,4 +1249,35 @@ The bilocal construction also determines the causal horizon and implies a consta
 
 <p>
 Evolution, causal structure, action, gravity, inertia, and dynamical law therefore arise from a common bilocal origin, with all dynamics derived from the momentum-weighted invariant separation, providing a unified explanation of isotropy, galaxy rotation, Type Ia supernova magnitudes, the acoustic scale, nonsingular gravitational collapse, the baryonic density, and the Hubble constant.
+</p>
+
+<hr>
+
+<h2>How to Cite</h2>
+
+<p>
+If you use this work, please cite both the manuscript and the archived repository:
+</p>
+
+<pre><code>@misc{Airey2026PME,
+  author       = {Airey, Donald},
+  title        = {Gravity and Action from the Evolution of a Complex Manifold},
+  year         = {2026},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.20414999},
+  url          = {https://doi.org/10.5281/zenodo.20414999}
+}
+</code></pre>
+
+<p>
+GitHub also provides a <strong>Cite this repository</strong> button in the right sidebar, which generates APA and BibTeX citations from the included <code>CITATION.cff</code> file.
+</p>
+
+<hr>
+
+<h2>License</h2>
+
+<p>
+Copyright &copy; 2026 Donald Airey. This work is licensed under the
+<a href="LICENSE">GNU General Public License v3.0</a>.
 </p>
