@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Parabolic Metric Evolution: Gravity and Action from the Evolution of a Complex Manifold"
+abstract: >-
+  A bilocal geometric framework on a complex manifold in which separations
+  are defined between ordered pairs of events. A single constant manifold
+  acceleration scale governs both global cosmological evolution and the
+  local-reduction regime, yielding the baryonic Tully-Fisher relation,
+  Pantheon+ Type Ia supernova distances on the SH0ES-calibrated absolute
+  scale, and an acoustic angular scale consistent with Planck measurements,
+  without invoking dark matter or dark energy.
+type: software
+authors:
+  - family-names: Airey
+    given-names: Donald
+    orcid: "https://orcid.org/0000-0002-2958-1545
+    repository-code: "https://github.com/DonaldAirey/parabolic-metric-evolution"
+url: "https://github.com/DonaldAirey/parabolic-metric-evolution"
+license: GPL-3.0
+keywords:
+  - cosmology
+  - gravitation
+  - modified gravity
+  - dark matter alternative
+  - dark energy alternative
+  - Hubble tension
+  - baryonic Tully-Fisher relation
+  - Pantheon+
+  - cosmic microwave background
+  - bilocal geometry
+  - complex manifold
+  - parabolic metric evolution
+version: "1.0.0"
+date-released: "2026-05-27"
+doi: "10.5281/zenodo.20415000"
