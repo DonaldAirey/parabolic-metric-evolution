@@ -1,8 +1,8 @@
 <h1 align="center">Gravity and Action from the Evolution of a Complex Manifold</h1>
 
 <p align="center">
-  <a href="https://doi.org/10.5281/zenodo.20414999">
-    <img src="https://zenodo.org/badge/1238949153.svg" alt="DOI">
+  <a href="https://doi.org/10.5281/zenodo.20420788">
+    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.20420788.svg" alt="DOI">
   </a>
 </p>
 
