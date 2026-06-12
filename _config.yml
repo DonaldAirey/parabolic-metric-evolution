@@ -1,0 +1,110 @@
+# =============================================================================
+# Jekyll configuration for the Parabolic Metric Evolution GitHub Pages site.
+# Lives at https://donaldairey.github.io/parabolic-metric-evolution/
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Site identity
+# -----------------------------------------------------------------------------
+title: "Parabolic Metric Evolution"
+description: >-
+  A bilocal geometric framework on a complex manifold that derives gravity,
+  the baryonic Tully-Fisher relation, and Type Ia supernova luminosity distances
+  from a single kinematic acceleration scale, without dark matter or dark energy.
+
+author:
+  name: "Donald Airey"
+  # Uncomment and fill in the next lines if you want them surfaced in metadata.
+  # email: "your-email@example.com"
+  # orcid: "https://orcid.org/0000-0000-0000-0000"
+
+# -----------------------------------------------------------------------------
+# URLs
+# -----------------------------------------------------------------------------
+# `url` is the GitHub Pages user origin; `baseurl` is the project subpath.
+# Together they form: https://donaldairey.github.io/parabolic-metric-evolution
+url: "https://donaldairey.github.io"
+baseurl: "/parabolic-metric-evolution"
+repository: "DonaldAirey/parabolic-metric-evolution"
+
+# -----------------------------------------------------------------------------
+# Social preview image
+# -----------------------------------------------------------------------------
+# Used for Open Graph (og:image) and Twitter Card (twitter:image) tags.
+# jekyll-seo-tag will prepend `url + baseurl` to produce the absolute URL.
+image: "/figures/pme-manifold.png"
+
+# -----------------------------------------------------------------------------
+# Language / locale
+# -----------------------------------------------------------------------------
+lang: "en_US"
+
+# -----------------------------------------------------------------------------
+# Search engine verification
+# -----------------------------------------------------------------------------
+# Google Search Console verification token (HTML tag method).
+# This populates <meta name="google-site-verification" content="..."> in <head>.
+google_site_verification: "mZauK67-0aXr2ORZYx6qYgexXqR5lonwSlN6UnZsKVc"
+
+# Optional: Bing Webmaster Tools verification (https://www.bing.com/webmasters)
+# bing_site_verification: "PASTE_TOKEN_HERE"
+
+# -----------------------------------------------------------------------------
+# Theme
+# -----------------------------------------------------------------------------
+# If you've already selected a theme in Settings → Pages, leave this commented
+# so your existing theme stays in place. Uncomment to switch to minima, which
+# is the most widely-tested theme for SEO/accessibility.
+# theme: minima
+
+# -----------------------------------------------------------------------------
+# Plugins
+# -----------------------------------------------------------------------------
+# These two are on the GitHub Pages allowlist and run automatically:
+#   - jekyll-seo-tag      generates <title>, <meta>, Open Graph, Twitter,
+#                         and JSON-LD tags from the config above
+#   - jekyll-sitemap      generates sitemap.xml at the site root
+#                         (verify at .../parabolic-metric-evolution/sitemap.xml)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# -----------------------------------------------------------------------------
+# Markdown / math
+# -----------------------------------------------------------------------------
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+  input: GFM                    # GitHub-flavored Markdown
+  hard_wrap: false
+
+# -----------------------------------------------------------------------------
+# Build settings
+# -----------------------------------------------------------------------------
+safe: true                      # required for GitHub Pages
+incremental: false
+
+# Generate a permalink that mirrors the file structure
+permalink: pretty
+
+# -----------------------------------------------------------------------------
+# Files / directories to exclude from the published site
+# -----------------------------------------------------------------------------
+# These stay in the repo but won't appear in the deployed site output.
+# (Keeps the published site clean without affecting the GitHub repo display.)
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .gitignore
+  - .git/
+  - "*.tex.bak"
+  - "*.aux"
+  - "*.log"
+  - "*.out"
+  - "*.synctex.gz"
+
+# Note: leaving `latex/` and `notebooks/` INCLUDED so users can browse the
+# LaTeX source and Wolfram notebooks via the Pages URL. Remove them from
+# the exclude list above intentionally — they're discoverable here.
